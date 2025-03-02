@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORM: Spatial-Temporal Iterative Optimization for Reliable Multicopter Trajectory Generation</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* 内容垂直居中 */
+            align-items: center;
+            min-height: 100vh; /* 最小高度为视口高度 */
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* 标题样式 */
+        h1 {
+            font-size: 3em; /* 加大标题字体 */
+            color: #2c3e50;
+            text-align: center;
+            margin: 20px 0; /* 调整标题的上下边距 */
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: 1px;
+        }
+
+        /* 图片容器样式 */
+        .image-container {
+            width: 90%; /* 增加图片宽度 */
+            max-width: 1000px; /* 最大宽度 */
+            margin-bottom: 40px; /* 增加图片与按钮的间距 */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* 图片样式 */
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* 按钮容器样式 */
+        .button-container {
+            display: flex;
+            gap: 30px; /* 增加按钮间距 */
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* 按钮样式 */
+        .button {
+            padding: 15px 30px; /* 加大按钮内边距 */
+            font-size: 1.2em; /* 加大按钮字体 */
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em; /* 小屏幕下标题字体缩小 */
+            }
+
+            .image-container {
+                width: 100%; /* 小屏幕下图片宽度占满 */
+            }
+
+            .button-container {
+                flex-direction: column;
+                gap: 20px; /* 小屏幕下按钮间距调整 */
+            }
+
+            .button {
+                width: 100%; /* 小屏幕下按钮占满宽度 */
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>STORM: Spatial-Temporal Iterative Optimization for Reliable Multicopter Trajectory Generation</h1>
+    <div class="image-container">
+        <img src="structure.png" alt="STORM Structure Diagram">
+    </div>
+    <div class="button-container">
+        <a href="https://github.com/username/repository-name" class="button">Code</a>
+        <a href="https://youtube.com/your-video-link" class="button">Video</a>
+    </div>
+</body>
+</html>
