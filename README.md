@@ -8,7 +8,7 @@
 
 To learn more about the theoretical foundation of this project, please refer to our paper on arXiv:
 
-- **[Paper Title](https://arxiv.org/abs/2503.03252)**
+- **[STORM: Spatial-Temporal Iterative Optimization for Reliable Multicopter Trajectory Generation](https://arxiv.org/abs/2503.03252)**
 
 ## Get in Touch
 
