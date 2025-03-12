@@ -3,3 +3,7 @@
 <div align="center">
   <img src="structure.png" alt="Project Structure" width="100%">
 </div>
+
+<div align="center" style="margin-top: 20px;">
+  Contact me: 24S053067@stu.hit.edu.cn
+</div>
