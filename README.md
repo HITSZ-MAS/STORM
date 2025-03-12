@@ -4,8 +4,8 @@
   <img src="structure.png" alt="Project Structure" width="100%">
 </div>
 
-<div align="center" style="margin-top: 40px; padding: 20px; background-color: #4CAF50; color: white; border: 2px solid #388E3C; border-radius: 15px; width: 90%; max-width: 700px;">
-  <p style="font-size: 1.5em; font-weight: bold;">
+<div align="center" style="margin-top: 40px; padding: 20px; background-color: #f8f9fa; border: 2px solid #007bff; border-radius: 15px; width: 90%; max-width: 600px;">
+  <p style="font-size: 1.2em; color: #2c3e50;">
     Contact me: 24S053067@stu.hit.edu.cn
   </p>
 </div>
