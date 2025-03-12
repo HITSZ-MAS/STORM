@@ -4,4 +4,4 @@
   <img src="structure.png" alt="Project Structure" width="100%">
 </div>
 
-**Contact me: 24S053067@stu.hit.edu.cn**
+**Contact us: 24S053067@stu.hit.edu.cn**
