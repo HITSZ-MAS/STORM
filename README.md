@@ -7,8 +7,8 @@
 ## Related Paper
 ### Simulation 
 <p align="center">
-  <img src="files/simulation1.gif" width = "400" height = "225"/>
-  <img src="files/simulation2.gif" width = "400" height = "225"/>
+  <img src="files/simulation1.gif" alt="First GIF" style="width: 48%; height: auto;">
+  <img src="files/simulation2.gif" alt="Second GIF" style="width: 48%; height: auto;">
 </p>
 
 To learn more about our project, please refer to our paper on arXiv:
