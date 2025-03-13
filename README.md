@@ -1,10 +1,15 @@
 <h1 align="center" style="font-size: 3em;">Code is coming soon...</h1>
 
 <div align="center">
-  <img src="structure.png" alt="Project Structure" width="100%">
+  <img src="files/structure.png" alt="Project Structure" width="100%">
 </div>
 
 ## Related Paper
+### Simulation 
+<p align="center">
+  <img src="files/simulation1.gif" width = "400" height = "225"/>
+  <img src="files/simulation2.gif" width = "400" height = "225"/>
+</p>
 
 To learn more about our project, please refer to our paper on arXiv:
 
