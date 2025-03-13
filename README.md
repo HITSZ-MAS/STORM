@@ -1,10 +1,12 @@
 <h1 align="center" style="font-size: 3em;">Code is coming soon...</h1>
 
+### Algorithm Framework
+
 <div align="center">
   <img src="files/structure.png" alt="Project Structure" width="100%">
 </div>
 
-### Simulation 
+### Simulation Experiments
 <!-- <p align="center">
   <img src="files/simulation1.gif" alt="simulation1" style="width: 48%; height: auto;">
   <img src="files/simulation2.gif" alt="simulation2" style="width: 48%; height: auto;">
@@ -31,7 +33,7 @@
   </table>
 </div>
 
-### Real World 
+### Real-World Experiments
 <p align="center">
   <img src="files/real.gif" alt="real world" style="width: 100%; height: auto;">
 </p>
