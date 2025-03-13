@@ -50,5 +50,16 @@ To learn more about our project, please refer to our paper on arXiv:
 **For any inquiries or more information, please feel free to contact us at:**  
 **24S053067@stu.hit.edu.cn**
 
+Please kindly star this project and cite out paper if it helps you. Thank you!
+```
+@article{zhang2025storm,
+  title={STORM: Spatial-Temporal Iterative Optimization for Reliable Multicopter Trajectory Generation},
+  author={Zhang, Jinhao and Zhou, Zhexuan and Xia, Wenlong and Gong, Youmin and Mei, Jie},
+  journal={arXiv preprint arXiv:2503.03252},
+  year={2025}
+}
+```
+
 *Thank you for your interest!*
+
 
