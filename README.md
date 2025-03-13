@@ -19,15 +19,15 @@
         <img src="files/simulation1.gif" alt="simulation1" width="100%">
       </td>
       <td align="center">
-        <img src="files/simulation2.gif" alt="simulation1" width="100%">
+        <img src="files/simulation2.gif" alt="simulation2" width="100%">
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="files/simulation1.gif" alt="simulation3" width="100%">
+        <img src="files/simulation3.gif" alt="simulation3" width="100%">
       </td>
       <td align="center">
-        <img src="files/simulation2.gif" alt="simulation4" width="100%">
+        <img src="files/simulation4.gif" alt="simulation4" width="100%">
       </td>
     </tr>
   </table>
