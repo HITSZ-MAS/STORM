@@ -39,7 +39,7 @@
 </p>
 
 Complete video: 
-[video](https://www.bilibili.com/video/BV18Y9nYJE2z/), 
+[video](https://www.bilibili.com/video/BV18Y9nYJE2z/)
 
 To learn more about our project, please refer to our paper on arXiv:
 
