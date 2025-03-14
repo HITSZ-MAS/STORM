@@ -145,6 +145,17 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
+        .video-table {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-spacing: 20px;
+        }
+
+        .video-table td {
+            vertical-align: top;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5em; 
@@ -178,6 +189,10 @@
 
             .video-container img,
             .video-container-small img {
+                width: 100%;
+            }
+
+            .video-table {
                 width: 100%;
             }
         }
@@ -218,12 +233,16 @@
         <img src="files/structure.png" alt="STORM Structure Diagram">
     </div>
     <div class="section-title">Simulation Experiments</div>
-    <div class="video-container-small">
-        <img src="files/simulation1.gif" alt="Simulation 1">
-        <img src="files/simulation2.gif" alt="Simulation 2">
-        <img src="files/simulation3.gif" alt="Simulation 3">
-        <img src="files/simulation4.gif" alt="Simulation 4">
-    </div>
+    <table class="video-table">
+        <tr>
+            <td><img src="files/simulation1.gif" alt="Simulation 1"></td>
+            <td><img src="files/simulation2.gif" alt="Simulation 2"></td>
+        </tr>
+        <tr>
+            <td><img src="files/simulation3.gif" alt="Simulation 3"></td>
+            <td><img src="files/simulation4.gif" alt="Simulation 4"></td>
+        </tr>
+    </table>
     <div class="section-title">Real-World Experiments</div>
     <div class="video-container">
         <img src="files/real.gif" alt="Real World Experiment">
