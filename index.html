@@ -141,16 +141,24 @@
         .video-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
+            gap: 10px; 
             justify-items: center;
             margin-bottom: 40px;
+            width: 60%; 
         }
 
         .video-grid img {
-            width: 48%; 
+            width: 100%; 
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-caption {
+            text-align: center;
+            font-size: 1em;
+            color: #2c3e50;
+            margin-top: 10px;
         }
 
         @media (max-width: 768px) {
@@ -191,6 +199,7 @@
 
             .video-grid {
                 grid-template-columns: 1fr;
+                width: 100%;
             }
         }
     </style>
@@ -231,10 +240,22 @@
     </div>
     <div class="section-title">Simulation Experiments</div>
     <div class="video-grid">
-        <img src="files/simulation1.gif" alt="Simulation 1">
-        <img src="files/simulation2.gif" alt="Simulation 2">
-        <img src="files/simulation3.gif" alt="Simulation 3">
-        <img src="files/simulation4.gif" alt="Simulation 4">
+        <div>
+            <img src="files/simulation1.gif" alt="Simulation 1">
+            <div class="video-caption">Overtake a slow leading vehicle.</div>
+        </div>
+        <div>
+            <img src="files/simulation2.gif" alt="Simulation 2">
+            <div class="video-caption">Navigates around the parking vehicle.</div>
+        </div>
+        <div>
+            <img src="files/simulation3.gif" alt="Simulation 3">
+            <div class="video-caption">Overtake a slow leading vehicle.</div>
+        </div>
+        <div>
+            <img src="files/simulation4.gif" alt="Simulation 4">
+            <div class="video-caption">Navigates around the parking vehicle.</div>
+        </div>
     </div>
     <div class="section-title">Real-World Experiments</div>
     <div class="video-container">
