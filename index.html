@@ -20,13 +20,14 @@
         }
 
         h1 {
-            font-size: 3em; /* Smaller font size for the title */
+            font-size: 3em; 
             color: #2c3e50;
             text-align: center;
             margin: 20px 0; 
             font-weight: 700;
             line-height: 1.2;
             letter-spacing: 1px;
+            max-width: 60%; 
         }
 
         .highlight {
@@ -34,8 +35,8 @@
         }
 
         .authors {
-            font-size: 1.5em; /* Larger font size for authors */
-            color: #007bff; /* Blue color for authors */
+            font-size: 1.5em; 
+            color: #007bff; 
             text-align: center;
             margin-bottom: 20px;
         }
@@ -91,7 +92,7 @@
 
         .abstract {
             max-width: 800px;
-            text-align: left; /* Left-align the abstract */
+            text-align: justify; /* Justify the abstract text */
             margin: 40px 0;
         }
 
@@ -136,6 +137,13 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
+        .video-container-small img {
+            width: 48%; /* Adjusted width for smaller GIFs */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5em; 
@@ -167,7 +175,8 @@
                 font-size: 1.5em;
             }
 
-            .video-container img {
+            .video-container img,
+            .video-container-small img {
                 width: 100%;
             }
         }
@@ -208,7 +217,7 @@
         <img src="files/structure.png" alt="STORM Structure Diagram">
     </div>
     <div class="section-title">Simulation Experiments</div>
-    <div class="video-container">
+    <div class="video-container-small">
         <img src="files/simulation1.gif" alt="Simulation 1">
         <img src="files/simulation2.gif" alt="Simulation 2">
         <img src="files/simulation3.gif" alt="Simulation 3">
