@@ -132,14 +132,7 @@
         }
 
         .video-container img {
-            width: 48%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .video-container-small img {
-            width: 48%; 
+            width: 80%; 
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -150,6 +143,13 @@
             max-width: 1200px;
             margin: 0 auto;
             border-spacing: 20px;
+        }
+
+        .video-table img {
+            width: 30%; 
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .video-table td {
@@ -188,7 +188,7 @@
             }
 
             .video-container img,
-            .video-container-small img {
+            .video-table img {
                 width: 100%;
             }
 
@@ -215,10 +215,10 @@
             vehicles. Currently, the inherent trade-off between constraint
             compliance and computational efficiency enhancement in UAV
             trajectory optimization problems has not been sufficiently
-            addressed. To enhance the performance of UAV trajectory opti
-           mization, we propose a spatial-temporal iterative optimization
-            framework. Firstly, B-splines are utilized to represent UAV tra
-           jectories, with rigorous safety assurance achieved through strict
+            addressed. To enhance the performance of UAV trajectory optimization, 
+            we propose a spatial-temporal iterative optimization
+            framework. Firstly, B-splines are utilized to represent UAV trajectories, 
+            with rigorous safety assurance achieved through strict
             enforcement of constraints on control points. Subsequently,
             a set of QP-LP subproblems via spatial-temporal decoupling
             and constraint linearization is derived. Finally, an iterative
