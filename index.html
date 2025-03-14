@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STORM: Spatial-Temporal Iterative Optimization for Reliable Multicopter Trajectory Generation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -60,6 +61,12 @@
             cursor: pointer;
             text-decoration: none;
             transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .button i {
+            margin-right: 10px;
         }
 
         .button:hover {
@@ -69,6 +76,24 @@
 
         .button:active {
             transform: translateY(0);
+        }
+
+        .abstract {
+            max-width: 800px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .abstract h2 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .abstract p {
+            font-size: 1.2em;
+            color: #34495e;
+            line-height: 1.6;
         }
 
         @media (max-width: 768px) {
@@ -89,6 +114,14 @@
                 width: 100%; 
                 text-align: center;
             }
+
+            .abstract h2 {
+                font-size: 2em;
+            }
+
+            .abstract p {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
@@ -97,9 +130,29 @@
     <div class="image-container">
         <img src="files/structure.png" alt="STORM Structure Diagram">
     </div>
+    <div class="abstract">
+        <h2>Abstract</h2>
+        <p>Efficient and safe trajectory planning plays a
+            critical role in the application of quadrotor unmanned aerial
+            vehicles. Currently, the inherent trade-off between constraint
+            compliance and computational efficiency enhancement in UAV
+            trajectory optimization problems has not been sufficiently
+            addressed. To enhance the performance of UAV trajectory opti
+           mization, we propose a spatial-temporal iterative optimization
+            framework. Firstly, B-splines are utilized to represent UAV tra
+           jectories, with rigorous safety assurance achieved through strict
+            enforcement of constraints on control points. Subsequently,
+            a set of QP-LP subproblems via spatial-temporal decoupling
+            and constraint linearization is derived. Finally, an iterative
+            optimization strategy incorporating guidance gradients is em
+           ployed to obtain high-performance UAV trajectories in different
+            scenarios. Both simulation and real-world experimental results
+            validate the efficiency and high-performance of the proposed
+            optimization framework in generating safe and fast trajectories.</p>
+    </div>
     <div class="button-container">
-        <a href="https://github.com/HITSZ-MAS/STORM" class="button">Code</a>
-        <a href="https://www.bilibili.com/video/BV18Y9nYJE2z" class="button">Video</a>
+        <a href="https://github.com/HITSZ-MAS/STORM" class="button"><i class="fab fa-github"></i>Code</a>
+        <a href="https://www.bilibili.com/video/BV18Y9nYJE2z" class="button"><i class="fas fa-video"></i>Video</a>
     </div>
 </body>
 </html>
