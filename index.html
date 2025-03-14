@@ -149,8 +149,23 @@
             margin-bottom: 40px;
         }
 
-        .video-container img {
-            width: 30%; /* 调整宽度 */
+        .video-container.simulation {
+            width: 100%;
+        }
+
+        .video-container.simulation img {
+            width: 45%; /* 调整宽度 */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container.real-world {
+            width: 100%;
+        }
+
+        .video-container.real-world img {
+            width: 90%; /* 调整宽度 */
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -223,6 +238,11 @@
             .video-container img {
                 width: 100%;
             }
+
+            .video-container.simulation img,
+            .video-container.real-world img {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -262,14 +282,14 @@
         <img src="files/structure.png" alt="STORM Structure Diagram">
     </div>
     <div class="section-title">Simulation Experiments</div>
-    <div class="video-container">
+    <div class="video-container simulation">
         <img src="files/simulation1.gif" alt="Simulation 1">
         <img src="files/simulation2.gif" alt="Simulation 2">
         <img src="files/simulation3.gif" alt="Simulation 3">
         <img src="files/simulation4.gif" alt="Simulation 4">
     </div>
     <div class="section-title">Real-World Experiments</div>
-    <div class="video-container">
+    <div class="video-container real-world">
         <img src="files/real.gif" alt="Real World Experiment">
     </div>
 </body>
