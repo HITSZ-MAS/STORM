@@ -139,12 +139,41 @@
         }
 
         .video-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px; 
-            justify-items: center;
-            margin-bottom: 40px;
-            width: 60%; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0; /* Remove gap between videos */
+        justify-items: center;
+        margin-bottom: 40px;
+        width: 100%; /* Set width to 100% */
+        }
+
+        .arxiv-button {
+        padding: 15px 30px; 
+        font-size: 1.2em; 
+        color: #fff;
+        background-color: #d9534f;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        }
+
+        .arxiv-button i {
+        margin-right: 10px;
+        }
+
+        .arxiv-button:hover {
+            background-color: #c9302c;
+            transform: translateY(-2px);
+        }
+
+        .arxiv-button:active {
+            transform: translateY(0);
         }
 
         .video-grid img {
@@ -256,6 +285,9 @@
             <img src="files/simulation4.gif" alt="Simulation 4">
             <div class="video-caption">Navigates around the parking vehicle.</div>
         </div>
+    </div>
+    <div class="button-container">
+        <a href="https://arxiv.org/abs/2503.03252" class="arxiv-button"><i class="fas fa-file-alt"></i>arXiv Paper</a>
     </div>
     <div class="section-title">Real-World Experiments</div>
     <div class="video-container">
