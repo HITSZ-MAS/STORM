@@ -83,11 +83,11 @@
         }
 
         .button {
-            background-color: #007bff;
+            background-color: #6c757d; /* 深灰色 */
         }
 
         .button:hover {
-            background-color: #0056b3;
+            background-color: #5a6268; /* 深灰色 hover */
             transform: translateY(-2px);
         }
 
@@ -105,6 +105,25 @@
         }
 
         .arxiv-button:active {
+            transform: translateY(0);
+        }
+
+        .arxiv-button img.arxiv-logo {
+            width: 20px; /* 调整图标宽度 */
+            height: auto; /* 调整图标高度 */
+            margin-right: 10px; /* 调整图标与文字之间的间距 */
+        }
+
+        .video-button {
+            background-color: #007bff; /* 蓝色 */
+        }
+
+        .video-button:hover {
+            background-color: #0056b3; /* 蓝色 hover */
+            transform: translateY(-2px);
+        }
+
+        .video-button:active {
             transform: translateY(0);
         }
 
@@ -244,12 +263,6 @@
                 width: 100%;
             }
         }
-
-        .arxiv-button img.arxiv-logo {
-            width: 20px; /* 调整图标宽度 */
-            height: auto; /* 调整图标高度 */
-            margin-right: 10px; /* 调整图标与文字之间的间距 */
-        }
     </style>
 </head>
 <body>
@@ -263,7 +276,7 @@
         <a href="https://arxiv.org/abs/2503.03252" class="arxiv-button">
             <img src="https://info.arxiv.org/assets/favicon.png" alt="arXiv Logo" class="arxiv-logo">arXiv
         </a>
-        <a href="https://www.bilibili.com/video/BV18Y9nYJE2z" class="button"><i class="fas fa-video"></i>Video</a>
+        <a href="https://www.bilibili.com/video/BV18Y9nYJE2z" class="video-button"><i class="fas fa-video"></i>Video</a>
     </div>
     <div class="abstract"> 
         <h2>Abstract</h2>
