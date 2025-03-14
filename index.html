@@ -41,8 +41,8 @@
         }
 
         .image-container {
-            width: 120%; 
-            max-width: 1800px; 
+            width: 80%; /* Adjusted width for smaller image */
+            max-width: 1200px; /* Adjusted max-width for smaller image */
             margin-bottom: 40px; 
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -107,6 +107,13 @@
             line-height: 1.6;
         }
 
+        .image-title {
+            font-size: 2em;
+            color: #2c3e50;
+            text-align: center;
+            margin: 20px 0;
+        }
+
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5em; 
@@ -132,6 +139,10 @@
 
             .abstract p {
                 font-size: 1em;
+            }
+
+            .image-title {
+                font-size: 1.5em;
             }
         }
     </style>
@@ -166,6 +177,7 @@
             validate the efficiency and high-performance of the proposed
             optimization framework in generating safe and fast trajectories.</p>
     </div>
+    <div class="image-title">Algorithm Framework</div>
     <div class="image-container">
         <img src="files/structure.png" alt="STORM Structure Diagram">
     </div>
