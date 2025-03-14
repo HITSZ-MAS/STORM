@@ -150,7 +150,7 @@
         }
 
         .video-container img {
-            width: 80%; 
+            width: 45%; /* 调整宽度 */
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -219,6 +219,10 @@
                 grid-template-columns: 1fr;
                 width: 100%;
             }
+
+            .video-container img {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -258,19 +262,11 @@
         <img src="files/structure.png" alt="STORM Structure Diagram">
     </div>
     <div class="section-title">Simulation Experiments</div>
-    <div class="video-grid">
-        <div>
-            <img src="files/simulation1.gif" alt="Simulation 1">
-        </div>
-        <div>
-            <img src="files/simulation2.gif" alt="Simulation 2">
-        </div>
-        <div>
-            <img src="files/simulation3.gif" alt="Simulation 3">
-        </div>
-        <div>
-            <img src="files/simulation4.gif" alt="Simulation 4">
-        </div>
+    <div class="video-container">
+        <img src="files/simulation1.gif" alt="Simulation 1">
+        <img src="files/simulation2.gif" alt="Simulation 2">
+        <img src="files/simulation3.gif" alt="Simulation 3">
+        <img src="files/simulation4.gif" alt="Simulation 4">
     </div>
     <div class="section-title">Real-World Experiments</div>
     <div class="video-container">
