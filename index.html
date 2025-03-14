@@ -83,11 +83,11 @@
         }
 
         .button {
-            background-color: #6c757d; /* 深灰色 */
+            background-color: #6c757d; 
         }
 
         .button:hover {
-            background-color: #5a6268; /* 深灰色 hover */
+            background-color: #5a6268; 
             transform: translateY(-2px);
         }
 
@@ -109,17 +109,32 @@
         }
 
         .arxiv-button img.arxiv-logo {
-            width: 20px; /* 调整图标宽度 */
-            height: auto; /* 调整图标高度 */
-            margin-right: 10px; /* 调整图标与文字之间的间距 */
+            width: 20px; 
+            height: auto; 
+            margin-right: 10px; 
         }
 
         .video-button {
-            background-color: #007bff; /* 蓝色 */
+            background-color: #007bff; /* Blue color */
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-button i {
+            margin-right: 10px;
         }
 
         .video-button:hover {
-            background-color: #0056b3; /* 蓝色 hover */
+            background-color: #0056b3; /* Darker blue on hover */
             transform: translateY(-2px);
         }
 
@@ -194,13 +209,12 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0; 
-        /* justify-items: center; */
         margin-bottom: 40px;
         width: 100%; 
         }
 
         .video-grid img {
-            width: 70%; /* 调整宽度 */
+            width: 70%; 
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
