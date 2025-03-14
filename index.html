@@ -58,16 +58,16 @@
 
         .button-container {
             display: flex;
-            gap: 30px;
+            gap: 20px;
             flex-wrap: wrap;
             justify-content: center;
+            margin-bottom: 20px;
         }
 
-        .button {
-            padding: 15px 30px; 
-            font-size: 1.2em; 
+        .button, .arxiv-button {
+            padding: 15px 30px;
+            font-size: 1.2em;
             color: #fff;
-            background-color: #007bff;
             border: none;
             border-radius: 8px;
             cursor: pointer;
@@ -75,10 +75,15 @@
             transition: background-color 0.3s ease, transform 0.2s ease;
             display: flex;
             align-items: center;
+            justify-content: center;
         }
 
-        .button i {
+        .button i, .arxiv-button i {
             margin-right: 10px;
+        }
+
+        .button {
+            background-color: #007bff;
         }
 
         .button:hover {
@@ -87,6 +92,19 @@
         }
 
         .button:active {
+            transform: translateY(0);
+        }
+
+        .arxiv-button {
+            background-color: #d9534f;
+        }
+
+        .arxiv-button:hover {
+            background-color: #c9302c;
+            transform: translateY(-2px);
+        }
+
+        .arxiv-button:active {
             transform: translateY(0);
         }
 
@@ -145,35 +163,6 @@
         justify-items: center;
         margin-bottom: 40px;
         width: 100%; /* Set width to 100% */
-        }
-
-        .arxiv-button {
-        padding: 15px 30px; 
-        font-size: 1.2em; 
-        color: #fff;
-        background-color: #d9534f;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        text-decoration: none;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-        }
-
-        .arxiv-button i {
-        margin-right: 10px;
-        }
-
-        .arxiv-button:hover {
-            background-color: #c9302c;
-            transform: translateY(-2px);
-        }
-
-        .arxiv-button:active {
-            transform: translateY(0);
         }
 
         .video-grid img {
