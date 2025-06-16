@@ -1,4 +1,5 @@
 <h1 align="center" style="font-size: 3em;">STORM: Spatial-Temporal Iterative Optimization for Reliable Multicopter Trajectory Generation</h1>
+<h3 align="center" style="font-size: 3em;">Accepted by IROS 2025</h3>
 <h2 align="center" style="font-size: 3em;">Code is coming soon...</h2>
 
 ### Algorithm Framework
