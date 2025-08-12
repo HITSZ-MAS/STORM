@@ -1,0 +1,14 @@
+Header header
+float64[] duration
+float64[] x
+float64[] y
+float64[] z
+float64[] vx
+float64[] vy
+float64[] vz
+float64[] ax
+float64[] ay
+float64[] az
+float64[] jx
+float64[] jy
+float64[] jz
