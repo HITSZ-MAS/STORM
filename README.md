@@ -78,7 +78,11 @@ geometry_msgs
 std_msgs
 
 # Message types (need to compile ROS package)
-planner.msg
+b_spline.msg
+corridor.msg
+idx.msg
+ctrlpts.msg
+plane.msg
 ```
 
 ### Install Dependencies
@@ -151,7 +155,7 @@ bspline_msg = {
 
 ### 2. Using ROS Node
 ```bash
-# Start ROS node
+# Start ROS node (You need to compile the msg in your own ros package and put the python scripts in the package)
 rosrun planner opt_dataloader.py
 
 # Publish input data
