@@ -236,7 +236,7 @@ if __name__ == "__main__":
     J_max = 5
     p = 3
 
-    optimizer = Knots_Optimizer_base_Linearization(CPs, t_max, t_min, V_max, A_max, J_max, p)
+    optimizer = Knots_Optimizer_Iter_Linearization(CPs, t_max, t_min, V_max, A_max, J_max, p)
     G, h = optimizer.get_G_h()
     print(f"G shape: {G.shape}")
     print(f"h shape: {h.shape}")

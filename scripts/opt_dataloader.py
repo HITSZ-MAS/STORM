@@ -122,7 +122,7 @@ def visualize_bspline_trajectory(points):
 def process_input_data(ctrlpts_msg, corridor_msg, idx_msg):
     ctrlpts_input = []
     for i in range(len(ctrlpts_msg.x)):
-        point = [ctrlpts_msg.x[i], ctrlpts_msg.y[i], ctrlpts_msg.z[i]]  # 每个点是一个包含x,y,z的列表
+        point = [ctrlpts_msg.x[i], ctrlpts_msg.y[i], ctrlpts_msg.z[i]] 
         ctrlpts_input.append(point)
     ctrlpts_input = np.array(ctrlpts_input)
     corridors_input = []
